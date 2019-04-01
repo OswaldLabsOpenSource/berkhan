@@ -1,16 +1,14 @@
 import express, { Response, Request } from "express";
 const app = express();
 
-// import { followProcess, retweetProcess } from "./index";
+import { updateNumber } from "./index";
 
-app.get("/", (req: Request, res: Response) => res.json({ hello: "world" }));
+app.get("/", (req: Request, res: Response) => res.json({ hello: "berkhan" }));
 
-// app.get("/retweet", (req: Request, res: Response) => {
-//   retweetProcess()
-//     .then(() => res.json({ retweeted: true }))
-//     .catch(error => res.json({ error }));
-// });
+app.get("/update", (req: Request, res: Response) => {
+  updateNumber()
+    .then(() => res.json({ updated: true }))
+    .catch(() => res.json({ update: false, error: true }));
+});
 
-app.listen(process.env.PORT || 7002, () =>
-  console.log("Berkhan is ready.")
-);
+app.listen(process.env.PORT || 7002, () => console.log("Berkhan is ready."));
