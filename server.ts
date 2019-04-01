@@ -1,12 +1,12 @@
 import express, { Response, Request } from "express";
 const app = express();
 
-import { updateNumber } from "./index";
+import { updateProcess } from "./index";
 
 app.get("/", (req: Request, res: Response) => res.json({ hello: "berkhan" }));
 
 app.get("/update", (req: Request, res: Response) => {
-  updateNumber()
+  updateProcess()
     .then(() => res.json({ updated: true }))
     .catch(() => res.json({ update: false, error: true }));
 });
