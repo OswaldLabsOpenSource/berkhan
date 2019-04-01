@@ -29,9 +29,19 @@ const updateText = async (repo: string, path: string, text: number) => {
 
 const updateProcess = async () => {
   const repo = "OswaldLabsOpenSource/oswaldlabs.com";
-  const file = "layouts/partials/data/reviews-agastya.html";
-  const currentText: number = await getText(repo, file);
-  return await updateText(repo, file, currentText + 1);
+  const agastya = "layouts/partials/data/reviews-agastya.html";
+  const augmenta11y = "layouts/partials/data/reviews-agastya.html";
+  await updateText(
+    repo,
+    agastya,
+    (await getText(repo, agastya)) + Math.floor(Math.random() * 3)
+  );
+  await updateText(
+    repo,
+    augmenta11y,
+    (await getText(repo, augmenta11y)) + Math.floor(Math.random() * 3)
+  );
+  return true;
 };
 
 export { updateProcess, updateText, getText };
