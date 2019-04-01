@@ -30,7 +30,7 @@ const updateText = async (repo: string, path: string, text: number) => {
 const updateProcess = async () => {
   const repo = "OswaldLabsOpenSource/oswaldlabs.com";
   const agastya = "layouts/partials/data/reviews-agastya.html";
-  const augmenta11y = "layouts/partials/data/reviews-agastya.html";
+  const augmenta11y = "layouts/partials/data/reviews-augmenta11y.html";
   await updateText(
     repo,
     agastya,
