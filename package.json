@@ -27,7 +27,7 @@
     "@types/js-base64": "^2.3.1",
     "@types/lodash": "^4.14.137",
     "@types/node": "^12.7.2",
-    "concurrently": "^4.1.1",
+    "concurrently": "^4.1.2",
     "coveralls": "^3.0.6",
     "jest": "^24.9.0",
     "nodemon": "^1.19.1",
