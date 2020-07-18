@@ -2862,10 +2862,10 @@ jest@^25.5.4:
     import-local "^3.0.2"
     jest-cli "^25.5.4"
 
-js-base64@^3.2.3:
-  version "3.2.3"
-  resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-3.2.3.tgz#697fc9572ce7c688b713e5946e64ef3e690a4be4"
-  integrity sha512-aWSiY/vvoz9SFbtf6fn0a/yipqQNhPtoGIZQBF+SL1s/ngZbSsoL2STTyjj09nlqD5KvH089EOKxz7zIuDX2/g==
+js-base64@^3.2.4:
+  version "3.2.4"
+  resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-3.2.4.tgz#1c311821ec3871ced6091808409f8401e30684a6"
+  integrity sha512-WFh/G3UxDU/3gWsJPtT1Ee8smRd9d6Z9k1/1aIg5ajGdYUeZg+ZRFTY6LxBqNArU3qjHKhrxu1pjr921DILu3w==
 
 js-tokens@^4.0.0:
   version "4.0.0"
