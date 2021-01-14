@@ -26,7 +26,7 @@
     "@types/jest": "^26.0.20",
     "@types/js-base64": "^3.0.0",
     "@types/lodash": "^4.14.157",
-    "@types/node": "^14.14.20",
+    "@types/node": "^14.14.21",
     "concurrently": "^5.3.0",
     "coveralls": "^3.1.0",
     "jest": "^25.5.4",
