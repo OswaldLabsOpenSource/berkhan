@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@types/dotenv": "^8.2.0",
-    "@types/express": "^4.17.12",
+    "@types/express": "^4.17.13",
     "@types/jest": "^26.0.23",
     "@types/js-base64": "^3.3.1",
     "@types/lodash": "^4.14.157",
